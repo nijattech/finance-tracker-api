@@ -1,0 +1,23 @@
+Generic single-data# Finance Tracker REST API
+
+An asynchronous RESTful API for personal finance tracking, category management, and financial analytics. Built with Python 3.13 and FastAPI using clean architecture principles.
+
+## 🛠 Tech Stack
+* **Language:** Python 3.13
+* **Framework:** FastAPI
+* **Database & ORM:** SQLite (Async Engine) / PostgreSQL, SQLAlchemy 2.0
+* **Migrations:** Alembic
+* **Data Validation:** Pydantic v2
+* **Security & Auth:** OAuth2 with JWT tokens, Passlib (bcrypt)
+
+## 🚀 Core Features
+* **User Authentication:** Registration, login, password hashing, and JWT authorization.
+* **Category Management:** Create and list user-specific spending/income categories.
+* **Transaction Operations:** Add income/expense records with category binding and filtering.
+* **Analytics & Summary:** Calculate total income, total expenses, and net balance per user.
+
+## ⚙️ Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/finance_tracker.git](https://github.com/YOUR_USERNAME/finance_tracker.git)base configuration.
